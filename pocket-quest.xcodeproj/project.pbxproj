@@ -23,10 +23,17 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXBuildFile section */
+		D2AA5F1A2E1F4D0A9A1E1001 /* WordleHintView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1AA5F1A2E1F4D0A9A1E1001 /* WordleHintView.swift */; };
+		D2AA5F1A2E1F4D0A9A1E1002 /* HangmanHintView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1AA5F1A2E1F4D0A9A1E1002 /* HangmanHintView.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		AA7635A92FD77A130081E0C0 /* pocket-quest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "pocket-quest.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA7635BA2FD77A140081E0C0 /* pocket-questTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "pocket-questTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA7635C42FD77A140081E0C0 /* pocket-questUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "pocket-questUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1AA5F1A2E1F4D0A9A1E1001 /* WordleHintView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "/Users/liamsood/pocket-quest/Overrides/WordleHintView.swift"; sourceTree = "<absolute>"; };
+		D1AA5F1A2E1F4D0A9A1E1002 /* HangmanHintView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "/Users/liamsood/pocket-quest/Overrides/HangmanHintView.swift"; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -266,6 +273,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D2AA5F1A2E1F4D0A9A1E1002 /* HangmanHintView.swift in Sources */,
+				D2AA5F1A2E1F4D0A9A1E1001 /* WordleHintView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -329,6 +338,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "codingplace.pocket-quest";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				REGISTER_APP_GROUPS = YES;
+				EXCLUDED_SOURCE_FILE_NAMES = "WordleView.swift HangmanView.swift";
 				SDKROOT = auto;
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
@@ -372,6 +382,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "codingplace.pocket-quest";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				REGISTER_APP_GROUPS = YES;
+				EXCLUDED_SOURCE_FILE_NAMES = "WordleView.swift HangmanView.swift";
 				SDKROOT = auto;
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
