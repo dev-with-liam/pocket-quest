@@ -1,6 +1,6 @@
 //
 //  ContentView.swift
-//  pocket-quest
+//  pocket-games
 //
 //  Created by Liam Sood on 6/8/26.
 //

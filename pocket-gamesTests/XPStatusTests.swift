@@ -1,5 +1,5 @@
 import XCTest
-@testable import pocket_quest
+@testable import pocket_games
 
 final class XPStatusTests: XCTestCase {
     func testLevelRewardsIncreaseWithProgress() {

@@ -1,6 +1,6 @@
 import Foundation
 import Testing
-@testable import pocket_quest
+@testable import pocket_games
 
 @MainActor
 struct WormArenaViewModelTests {

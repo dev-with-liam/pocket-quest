@@ -128,7 +128,7 @@ private struct GameHubHomeScreen: View {
                     .frame(maxWidth: .infinity)
                 }
             }
-            .navigationTitle("Pocket Quest")
+            .navigationTitle("Pocket Games")
             .hiddenNavigationTitle()
             .searchable(text: $searchText, placement: .automatic, prompt: "Search games")
             .navigationDestination(for: GameOption.self) { game in
@@ -284,7 +284,7 @@ private struct SettingsScreen: View {
 
                 ScrollView {
                     VStack(alignment: .leading, spacing: 20) {
-                        SectionHeader(title: "Settings", subtitle: "Tune Pocket Quest for how you play")
+                        SectionHeader(title: "Settings", subtitle: "Tune Pocket Games for how you play")
 
                         SettingsGroup {
                             Toggle("Sound Effects", isOn: $soundEnabled)
@@ -416,7 +416,7 @@ private struct HeroHeader: View {
                     .shadow(color: .cyan.opacity(0.24), radius: 18, y: 10)
 
                 VStack(alignment: .leading, spacing: 8) {
-                    Text("Pocket Quest")
+                    Text("Pocket Games")
                         .font(.system(.largeTitle, design: .rounded, weight: .black))
                         .foregroundStyle(BrandPalette.textGradient)
                         .lineLimit(1)

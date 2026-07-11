@@ -1,13 +1,13 @@
 //
-//  pocket_questUITestsLaunchTests.swift
-//  pocket-questUITests
+//  pocket_gamesUITestsLaunchTests.swift
+//  pocket-gamesUITests
 //
 //  Created by Liam Sood on 6/8/26.
 //
 
 import XCTest
 
-final class pocket_questUITestsLaunchTests: XCTestCase {
+final class pocket_gamesUITestsLaunchTests: XCTestCase {
 
     override class var runsForEachTargetApplicationUIConfiguration: Bool {
         true

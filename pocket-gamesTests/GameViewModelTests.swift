@@ -1,5 +1,5 @@
 import XCTest
-@testable import pocket_quest
+@testable import pocket_games
 
 @MainActor
 final class GameViewModelTests: XCTestCase {

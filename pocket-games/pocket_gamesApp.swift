@@ -1,6 +1,6 @@
 //
-//  pocket_questApp.swift
-//  pocket-quest
+//  pocket_gamesApp.swift
+//  pocket-games
 //
 //  Created by Liam Sood on 6/8/26.
 //
@@ -8,7 +8,7 @@
 import SwiftUI
 
 @main
-struct pocket_questApp: App {
+struct pocket_gamesApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
